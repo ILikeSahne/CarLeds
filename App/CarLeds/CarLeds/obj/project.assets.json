@@ -197,6 +197,25 @@
           }
         }
       },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -2119,6 +2138,25 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
           }
         }
       },
@@ -4047,6 +4085,25 @@
           }
         }
       },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -5969,6 +6026,25 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
           }
         }
       },
@@ -7897,6 +7973,25 @@
           }
         }
       },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -9626,7 +9721,7 @@
         }
       }
     },
-    "net7.0-android33.0/iossimulator-x64": {
+    "net7.0-android33.0/ios-arm64": {
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -9819,6 +9914,25 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
           }
         }
       },
@@ -11747,6 +11861,25 @@
           }
         }
       },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -13672,6 +13805,25 @@
           }
         }
       },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/MonoAndroid/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.pdb;.XML"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -15583,6 +15735,25 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        }
       }
     },
     "net7.0-ios16.1/android-arm": {
@@ -15765,6 +15936,25 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
           }
         }
       }
@@ -15951,6 +16141,25 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        }
       }
     },
     "net7.0-ios16.1/android-x64": {
@@ -16133,6 +16342,25 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
           }
         }
       }
@@ -16319,9 +16547,28 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        }
       }
     },
-    "net7.0-ios16.1/iossimulator-x64": {
+    "net7.0-ios16.1/ios-arm64": {
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16501,6 +16748,25 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
           }
         }
       }
@@ -16687,6 +16953,25 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        }
       }
     },
     "net7.0-ios16.1/win10-x64": {
@@ -16869,6 +17154,25 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
           }
         }
       }
@@ -17055,6 +17359,25 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
@@ -17237,6 +17560,25 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
           }
         }
       }
@@ -17423,6 +17765,25 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
@@ -17605,6 +17966,25 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
           }
         }
       }
@@ -17791,9 +18171,28 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        }
       }
     },
-    "net7.0-maccatalyst16.1/iossimulator-x64": {
+    "net7.0-maccatalyst16.1/ios-arm64": {
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17973,6 +18372,25 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
           }
         }
       }
@@ -18159,6 +18577,25 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
@@ -18341,6 +18778,25 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
           }
         }
       }
@@ -18665,6 +19121,25 @@
             "rid": "win10-x86"
           }
         }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
@@ -18958,6 +19433,25 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
         }
       }
     },
@@ -19253,6 +19747,25 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
@@ -19546,6 +20059,25 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
         }
       }
     },
@@ -19841,9 +20373,28 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        }
       }
     },
-    "net7.0-windows10.0.19041/iossimulator-x64": {
+    "net7.0-windows10.0.19041/ios-arm64": {
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20134,6 +20685,25 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
         }
       }
     },
@@ -20428,6 +20998,25 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
         }
       }
     },
@@ -20728,6 +21317,25 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.BLE/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "related": ".deps.json;.pdb"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "related": ".Abstractions.deps.json;.Abstractions.pdb;.deps.json;.pdb"
+          }
         }
       }
     }
@@ -21964,6 +22572,41 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "Plugin.BLE/2.1.3": {
+      "sha512": "qGLGPvZWnmEjFh0sKF25efN6f5kiCaNybAlSX02F/VpgbyI5kQDjHYuJLebQ+nqbdyAnwsvz/yTZR5ioRainIg==",
+      "type": "package",
+      "path": "plugin.ble/2.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon_small.png",
+        "lib/MonoAndroid/Plugin.BLE.Abstractions.deps.json",
+        "lib/MonoAndroid/Plugin.BLE.Abstractions.dll",
+        "lib/MonoAndroid/Plugin.BLE.Abstractions.pdb",
+        "lib/MonoAndroid/Plugin.BLE.XML",
+        "lib/MonoAndroid/Plugin.BLE.dll",
+        "lib/MonoAndroid/Plugin.BLE.pdb",
+        "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.deps.json",
+        "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.BLE.XML",
+        "lib/Xamarin.iOS10/Plugin.BLE.dll",
+        "lib/Xamarin.iOS10/Plugin.BLE.pdb",
+        "lib/netstandard2.0/Plugin.BLE.Abstractions.deps.json",
+        "lib/netstandard2.0/Plugin.BLE.Abstractions.dll",
+        "lib/netstandard2.0/Plugin.BLE.Abstractions.pdb",
+        "lib/netstandard2.0/Plugin.BLE.deps.json",
+        "lib/netstandard2.0/Plugin.BLE.dll",
+        "lib/netstandard2.0/Plugin.BLE.pdb",
+        "lib/xamarinmac20/Plugin.BLE.Abstractions.deps.json",
+        "lib/xamarinmac20/Plugin.BLE.Abstractions.dll",
+        "lib/xamarinmac20/Plugin.BLE.Abstractions.pdb",
+        "lib/xamarinmac20/Plugin.BLE.dll",
+        "lib/xamarinmac20/Plugin.BLE.macOS.xml",
+        "plugin.ble.2.1.3.nupkg.sha512",
+        "plugin.ble.nuspec"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -23972,6 +24615,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.86",
+      "Plugin.BLE >= 2.1.3",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -23990,7 +24634,8 @@
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.86"
+      "Microsoft.Maui.Graphics >= 7.0.86",
+      "Plugin.BLE >= 2.1.3"
     ],
     "net7.0-maccatalyst16.1": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -23998,7 +24643,8 @@
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.86"
+      "Microsoft.Maui.Graphics >= 7.0.86",
+      "Plugin.BLE >= 2.1.3"
     ],
     "net7.0-windows10.0.19041": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -24009,7 +24655,8 @@
       "Microsoft.Maui.Graphics >= 7.0.86",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.86",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22621.755",
-      "Microsoft.WindowsAppSDK >= 1.2.221209.1"
+      "Microsoft.WindowsAppSDK >= 1.2.221209.1",
+      "Plugin.BLE >= 2.1.3"
     ]
   },
   "packageFolders": {
@@ -24035,7 +24682,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0-android",
+        "net7.0-android33.0",
         "net7.0-ios",
         "net7.0-maccatalyst",
         "net7.0-windows10.0.19041.0"
@@ -24047,7 +24694,7 @@
       },
       "frameworks": {
         "net7.0-android33.0": {
-          "targetAlias": "net7.0-android",
+          "targetAlias": "net7.0-android33.0",
           "projectReferences": {}
         },
         "net7.0-ios16.1": {
@@ -24071,7 +24718,7 @@
     },
     "frameworks": {
       "net7.0-android33.0": {
-        "targetAlias": "net7.0-android",
+        "targetAlias": "net7.0-android33.0",
         "dependencies": {
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
@@ -24101,6 +24748,10 @@
             "target": "Package",
             "version": "[7.0.86, )",
             "autoReferenced": true
+          },
+          "Plugin.BLE": {
+            "target": "Package",
+            "version": "[2.1.3, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -24219,6 +24870,10 @@
             "target": "Package",
             "version": "[7.0.86, )",
             "autoReferenced": true
+          },
+          "Plugin.BLE": {
+            "target": "Package",
+            "version": "[2.1.3, )"
           }
         },
         "imports": [
@@ -24282,6 +24937,10 @@
             "target": "Package",
             "version": "[7.0.86, )",
             "autoReferenced": true
+          },
+          "Plugin.BLE": {
+            "target": "Package",
+            "version": "[2.1.3, )"
           }
         },
         "imports": [
@@ -24362,6 +25021,10 @@
             "target": "Package",
             "version": "[1.2.221209.1, )",
             "autoReferenced": true
+          },
+          "Plugin.BLE": {
+            "target": "Package",
+            "version": "[2.1.3, )"
           }
         },
         "imports": [
@@ -24426,7 +25089,7 @@
       "android-x86": {
         "#import": []
       },
-      "iossimulator-x64": {
+      "ios-arm64": {
         "#import": []
       },
       "maccatalyst-x64": {

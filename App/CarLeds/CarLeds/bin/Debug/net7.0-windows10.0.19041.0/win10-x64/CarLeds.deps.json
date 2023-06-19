@@ -18,6 +18,7 @@
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "7.0.86",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.755",
           "Microsoft.WindowsAppSDK": "1.2.221209.1",
+          "Plugin.BLE": "2.1.3",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "7.0.7",
           "runtimepack.Microsoft.Maui.Core.Runtime.win": "7.0.86",
           "runtimepack.Microsoft.Maui.Controls.Runtime.win": "7.0.86",
@@ -994,6 +995,18 @@
             "fileVersion": "0.0.0.0"
           }
         }
+      },
+      "Plugin.BLE/2.1.3": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1125,6 +1138,13 @@
       "sha512": "sha512-1Y8KDCmUqytdduubaQhRz6aqaP7YhVSPE/fHeqLMsK3DrV+eBThrqkM6R/8N2lu0mwkNfKSTSAhixrTR72nyWA==",
       "path": "microsoft.windowsappsdk/1.2.221209.1",
       "hashPath": "microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512"
+    },
+    "Plugin.BLE/2.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qGLGPvZWnmEjFh0sKF25efN6f5kiCaNybAlSX02F/VpgbyI5kQDjHYuJLebQ+nqbdyAnwsvz/yTZR5ioRainIg==",
+      "path": "plugin.ble/2.1.3",
+      "hashPath": "plugin.ble.2.1.3.nupkg.sha512"
     }
   },
   "runtimes": {

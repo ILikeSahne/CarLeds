@@ -322,3 +322,5 @@ C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-win
 C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Plugin.BLE.Abstractions.dll
+C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Plugin.BLE.dll

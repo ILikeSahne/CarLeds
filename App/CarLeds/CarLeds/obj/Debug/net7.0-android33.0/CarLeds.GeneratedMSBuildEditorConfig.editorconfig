@@ -26,6 +26,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = CarLeds.CarLeds.Views.Conn
 build_metadata.AdditionalFiles.TargetPath = CarLeds\Views\ConnectToDevice\ConnectToDeviceView.xaml
 build_metadata.AdditionalFiles.RelativePath = CarLeds\Views\ConnectToDevice\ConnectToDeviceView.xaml
 
+[C:/Users/jonat/Desktop/Projects/CarLeds/App/CarLeds/CarLeds/CarLeds/Views/NoBluetoothOverlay/NoBluetoothOverlayView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CarLeds.CarLeds.Views.NoBluetoothOverlay.NoBluetoothOverlayView.xaml
+build_metadata.AdditionalFiles.TargetPath = CarLeds\Views\NoBluetoothOverlay\NoBluetoothOverlayView.xaml
+build_metadata.AdditionalFiles.RelativePath = CarLeds\Views\NoBluetoothOverlay\NoBluetoothOverlayView.xaml
+
 [C:/Users/jonat/Desktop/Projects/CarLeds/App/CarLeds/CarLeds/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarLeds.MainPage.xaml

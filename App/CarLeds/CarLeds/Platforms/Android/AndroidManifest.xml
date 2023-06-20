@@ -9,5 +9,6 @@
 	<uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
 	<uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
 	<uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+	<uses-feature android:name="android.hardware.bluetooth" />
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33" />
 </manifest>

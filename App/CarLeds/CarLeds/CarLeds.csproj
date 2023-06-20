@@ -57,6 +57,9 @@
 	  <MauiXaml Update="CarLeds\Views\ConnectToDevice\ConnectToDeviceView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="CarLeds\Views\NoBluetoothOverlay\NoBluetoothOverlayView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

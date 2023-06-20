@@ -4,10 +4,8 @@
              x:Class="CarLeds.MainPage"
              xmlns:connectToDevice="clr-namespace:CarLeds.CarLeds.Views.ConnectToDevice">
 
-    <ScrollView>
-        <StackLayout>
-            <connectToDevice:ConnectToDeviceView></connectToDevice:ConnectToDeviceView>
-        </StackLayout>
-    </ScrollView>
+    <Grid>
+        <connectToDevice:ConnectToDeviceView/>
+    </Grid>
 
 </ContentPage>

@@ -1,35 +1,90 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace CarLeds.CarLeds.General.Utils;
 
-namespace CarLeds.CarLeds.General.Utils
+using CommunityToolkit.Maui.Views;
+
+#if ANDROID
+    using Android.Content;
+    using Android.Locations;
+#elif IOS || MACCATALYST
+using CoreLocation;
+#elif WINDOWS
+    using Windows.Devices.Geolocation;
+#endif
+
+public class PermissionUtils
 {
-    public class PermissionUtils
+    public static async Task CheckBluetoothPermissions()
     {
-        public static async Task<bool> RequestBluetoothPermission()
-        {
-            var status = await Permissions.CheckStatusAsync<Permissions.LocationWhenInUse>();
+        var bluetoothStatus = await CheckBluetoothPermissionsAndroid();
+        var locationServices = IsLocationServiceEnabled();
 
-            if (status == PermissionStatus.Granted)
-                return true;
+        if (IsGranted(bluetoothStatus) && locationServices)
+            return;
 
-            if (status == PermissionStatus.Denied && DeviceInfo.Platform == DevicePlatform.iOS)
-            {
-                // Prompt the user to turn on in settings
-                // On iOS once a permission has been denied it may not be requested again from the application
-                return true;
-            }
+        await PopupUtils.DisplayText("This app needs access to Bluetooth to find nearby CarLed devices.\nPlease accept the corresponding permissions!");
 
-            if (Permissions.ShouldShowRationale<Permissions.LocationWhenInUse>())
-            {
-                // Prompt the user with additional information as to why the permission is needed
-            }
+        bluetoothStatus = await CheckBluetoothPermissionsAndroid(true);
+        locationServices = IsLocationServiceEnabled();
 
-            status = await Permissions.RequestAsync<Permissions.LocationWhenInUse>();
+        if (IsGranted(bluetoothStatus) && locationServices)
+            return;
 
-            return false;
-        }
+        await PopupUtils.Alert("Bluetooth Permissions weren't accepted", "Please accept the permissions next time!\nIf they don't open again, manually add them in the settings!");
+        Application.Current.Quit();
     }
+
+    private static async Task<PermissionStatus> CheckBluetoothPermissionsAndroid(bool request = false)
+    {
+        var bluetoothStatus = PermissionStatus.Granted;
+
+        if (DeviceInfo.Platform == DevicePlatform.Android)
+        {
+            if (DeviceInfo.Version.Major >= 12)
+            {
+                bluetoothStatus = await CheckPermissions<BluetoothPermissions>(request);
+            }
+            else
+            {
+                bluetoothStatus = await CheckPermissions<Permissions.LocationWhenInUse>(request);
+            }
+        }
+
+        return bluetoothStatus;
+    }
+
+    private static async Task<PermissionStatus> CheckPermissions<TPermission>(bool request = false) where TPermission : Permissions.BasePermission, new()
+    {
+        var status = await Permissions.CheckStatusAsync<TPermission>();
+
+        if (request)
+        {
+            status = await Permissions.RequestAsync<TPermission>();
+        }
+
+        return status;
+    }
+
+    private static bool IsGranted(PermissionStatus status)
+    {
+        return status == PermissionStatus.Granted || status == PermissionStatus.Limited;
+    }
+
+#if ANDROID
+    private static bool IsLocationServiceEnabled()
+    {
+        var locationManager = (LocationManager)Android.App.Application.Context.GetSystemService(Context.LocationService);
+        return locationManager.IsProviderEnabled(LocationManager.GpsProvider);
+    }
+#elif IOS || MACCATALYST
+    private static bool IsLocationServiceEnabled()
+    {
+        return CLLocationManager.Status == CLAuthorizationStatus.Denied;
+    }
+#elif WINDOWS
+    private static bool IsLocationServiceEnabled()
+    {
+        var locationservice = new Geolocator();
+        return locationservice.LocationStatus == PositionStatus.Disabled;
+    }
+#endif
 }

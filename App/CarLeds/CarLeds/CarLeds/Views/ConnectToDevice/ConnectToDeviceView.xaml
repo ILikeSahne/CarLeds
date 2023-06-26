@@ -14,20 +14,24 @@
     </ContentView.Resources>
 
     <Grid BackgroundColor="{StaticResource Background}">
+        <Grid RowDefinitions="auto, auto">
+            <Border Grid.Row="0" StrokeThickness="0" StrokeShape="RoundRectangle 20" Margin="5" BackgroundColor="{StaticResource Tertiary}">
+                <ListView ItemsSource="{Binding FoundBluetoothDevices}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Border>
+                                <Label Text="{Binding Name}"></Label>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Border>
+
+            <Button Grid.Row="1" Command="{Binding SearchForDevicesCommand}" Text="Search for Devices"></Button>
+        </Grid>
+
         <Grid IsVisible="{Binding ShowBluetoothStateOverlay}">
             <noBluetoothOverlay:NoBluetoothOverlayView/>
         </Grid>
-
-        <Border StrokeThickness="0" StrokeShape="RoundRectangle 20" Margin="5" BackgroundColor="{StaticResource Tertiary}">
-            <ListView ItemsSource="{Binding FoundBluetoothDevices}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <Border>
-                            <Label Text="{Binding Name}"></Label>
-                        </Border>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </Border>
     </Grid>
 </ContentView>

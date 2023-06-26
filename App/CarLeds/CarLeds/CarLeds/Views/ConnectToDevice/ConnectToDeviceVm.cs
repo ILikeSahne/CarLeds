@@ -5,6 +5,7 @@ using Plugin.BLE.Abstractions;
 using Plugin.BLE.Abstractions.Contracts;
 using Plugin.BLE.Abstractions.EventArgs;
 using System.Collections.ObjectModel;
+using System.Windows.Input;
 
 namespace CarLeds.CarLeds.Views.ConnectToDevice;
 
@@ -24,6 +25,8 @@ public class ConnectToDeviceVm : ViewModelBase
         }
     }
 
+    public ICommand SearchForDevicesCommand { get; set; }
+
     public ObservableCollection<IDevice> FoundBluetoothDevices { get; set; } = new ObservableCollection<IDevice>();
 
     public ConnectToDeviceVm()
@@ -37,13 +40,22 @@ public class ConnectToDeviceVm : ViewModelBase
         {
             ShowBluetoothStateOverlay = true;
         }
-        else
-        {
-            SearchForDevicesAsync();
-        }
 
         _ble.StateChanged += BluetoothStateChanged;
         _adapter.DeviceDiscovered += BluetoothDeviceFound;
+
+        RequestPermissions();
+    }
+
+    private void RequestPermissions()
+    {
+        Task.Run(() =>
+        {
+            Application.Current.Dispatcher.Dispatch(async() =>
+            {
+                await PermissionUtils.CheckBluetoothPermissions();
+            });
+        });
     }
 
     private void BluetoothStateChanged(object sender, BluetoothStateChangedArgs e)

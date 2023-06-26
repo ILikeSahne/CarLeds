@@ -1,8 +1,10 @@
 using CarLeds.CarLeds.General.Utils;
 using CarLeds.CarLeds.General.ViewModel;
 using Plugin.BLE;
+using Plugin.BLE.Abstractions;
 using Plugin.BLE.Abstractions.Contracts;
 using Plugin.BLE.Abstractions.EventArgs;
+using System.Collections.ObjectModel;
 
 namespace CarLeds.CarLeds.Views.ConnectToDevice;
 
@@ -22,6 +24,8 @@ public class ConnectToDeviceVm : ViewModelBase
         }
     }
 
+    public ObservableCollection<IDevice> FoundBluetoothDevices { get; set; } = new ObservableCollection<IDevice>();
+
     public ConnectToDeviceVm()
     {
         _ble = CrossBluetoothLE.Current;
@@ -35,10 +39,11 @@ public class ConnectToDeviceVm : ViewModelBase
         }
         else
         {
-            SearchForDevices();
+            SearchForDevicesAsync();
         }
 
         _ble.StateChanged += BluetoothStateChanged;
+        _adapter.DeviceDiscovered += BluetoothDeviceFound;
     }
 
     private void BluetoothStateChanged(object sender, BluetoothStateChangedArgs e)
@@ -47,14 +52,23 @@ public class ConnectToDeviceVm : ViewModelBase
 
         if(isOn)
         {
-            SearchForDevices();
+            SearchForDevicesAsync();
         }
 
         ShowBluetoothStateOverlay = !isOn;
     }
 
-    private void SearchForDevices()
+    private async void SearchForDevicesAsync()
     {
+        FoundBluetoothDevices.Clear();
 
+        var scanFilterOptions = new ScanFilterOptions();
+        await _adapter.StartScanningForDevicesAsync(scanFilterOptions);
     }
+
+    private void BluetoothDeviceFound(object sender, DeviceEventArgs e)
+    {
+        FoundBluetoothDevices.Add(e.Device);
+    }
+
 }

@@ -13,7 +13,21 @@
         <converter:VisibleIfTrueConverter x:Key="VisibleIfTrueConverter"/>
     </ContentView.Resources>
 
-    <Grid IsVisible="{Binding ShowBluetoothStateOverlay}">
-        <noBluetoothOverlay:NoBluetoothOverlayView/>
+    <Grid BackgroundColor="{StaticResource Background}">
+        <Grid IsVisible="{Binding ShowBluetoothStateOverlay}">
+            <noBluetoothOverlay:NoBluetoothOverlayView/>
+        </Grid>
+
+        <Border StrokeThickness="0" StrokeShape="RoundRectangle 20" Margin="5" BackgroundColor="{StaticResource Tertiary}">
+            <ListView ItemsSource="{Binding FoundBluetoothDevices}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Border>
+                            <Label Text="{Binding Name}"></Label>
+                        </Border>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Border>
     </Grid>
 </ContentView>

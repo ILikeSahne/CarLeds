@@ -1,0 +1,13 @@
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+               x:Class="CarLeds.CarLeds.Views.ImagePopup.ImagePopup"
+               xmlns:local="clr-namespace:CarLeds.CarLeds.Views.ImagePopup">
+    <toolkit:Popup.BindingContext>
+        <local:ImagePopupVm/>
+    </toolkit:Popup.BindingContext>
+
+    <Border Grid.Row="0" StrokeThickness="0" StrokeShape="RoundRectangle 20" Margin="5" BackgroundColor="{StaticResource Tertiary}">
+
+    </Border>
+</toolkit:Popup>

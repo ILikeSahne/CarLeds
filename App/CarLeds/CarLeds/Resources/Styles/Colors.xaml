@@ -8,6 +8,7 @@
     <Color x:Key="Secondary">#19A7CE</Color>
     <Color x:Key="Tertiary">#AFD3E2</Color>
     <Color x:Key="Background">#F6F1F1</Color>
+    <Color x:Key="Error">#B00020</Color> 
     
     <Color x:Key="White">White</Color>
     <Color x:Key="Black">Black</Color>

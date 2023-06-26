@@ -21,7 +21,7 @@ public class PermissionUtils
         if (IsGranted(bluetoothStatus) && locationServices)
             return;
 
-        await PopupUtils.DisplayText("This app needs access to Bluetooth to find nearby CarLed devices.\nPlease accept the corresponding permissions!");
+        await PopupUtils.DisplayImagePopup("This app needs a few permissions to function.\nPlease accept them!");
 
         bluetoothStatus = await CheckBluetoothPermissionsAndroid(true);
         locationServices = IsLocationServiceEnabled();
@@ -29,7 +29,7 @@ public class PermissionUtils
         if (IsGranted(bluetoothStatus) && locationServices)
             return;
 
-        await PopupUtils.Alert("Bluetooth Permissions weren't accepted", "Please accept the permissions next time!\nIf they don't open again, manually add them in the settings!");
+        await PopupUtils.DisplayImagePopup("Please accept the permissions next time!\nIf they don't open again, you have to manually add them in the settings!");
         Application.Current.Quit();
     }
 

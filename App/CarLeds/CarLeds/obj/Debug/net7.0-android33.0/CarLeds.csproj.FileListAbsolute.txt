@@ -974,6 +974,8 @@ C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-and
 C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-android33.0\lp\158\jl\files.cache
 C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-android33.0\lp\159\jl\files.cache
 C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-android33.0\lp\160\jl\files.cache
+C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-android33.0\resizetizer\r\drawable\icon_bluetooth.png
+C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-android33.0\resizetizer\r\drawable\icon_warning.png
 C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-android33.0\android\assets\mscorlib.dll
 C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-android33.0\android\assets\System.Collections.Concurrent.dll
 C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-android33.0\android\assets\System.Data.Common.dll

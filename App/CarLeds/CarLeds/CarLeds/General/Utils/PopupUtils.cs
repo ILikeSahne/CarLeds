@@ -6,11 +6,16 @@ namespace CarLeds.CarLeds.General.Utils
 {
     class PopupUtils
     {
-        public static async Task DisplayImagePopup(string text)
+        public static async Task DisplayImagePopup(string sourcePath, string text, Page page = null)
         {
-            var popup = new ImagePopup(text);
+            if (page == null)
+            {
+                page = Application.Current.MainPage;
+            }
 
-            await Application.Current.MainPage.ShowPopupAsync(popup);
+            var popup = new ImagePopup(sourcePath, text);
+
+            await page.ShowPopupAsync(popup);
         }
     }
 }

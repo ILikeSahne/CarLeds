@@ -9,6 +9,18 @@ namespace CarLeds.CarLeds.Views.ImagePopup;
 
 internal class ImagePopupVm : ViewModelBase
 {
+    private string _source;
+
+    public string Source
+    {
+        get => _source;
+        set
+        {
+            _source = value;
+            OnPropertyChanged();
+        }
+    }
+
     private string _text;
 
     public string Text

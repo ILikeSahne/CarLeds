@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-06-19T12:58:44.386</Modified>
+      <Modified>2023-06-29T06:49:44.617</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-06-19T12:58:43.992</Modified>
+      <Modified>2023-06-29T06:49:44.358</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CarLeds.runtimeconfig.json">
       <PackagePath>CarLeds.runtimeconfig.json</PackagePath>
-      <Modified>2023-06-19T12:58:43.732</Modified>
+      <Modified>2023-06-27T10:43:01.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CarLeds.dll">
       <PackagePath>CarLeds.dll</PackagePath>
-      <Modified>2023-06-19T12:58:41.935</Modified>
+      <Modified>2023-06-29T06:49:43.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CarLeds.exe</PackagePath>
-      <Modified>2023-06-19T12:58:41.961</Modified>
+      <Modified>2023-06-29T06:49:43.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonat\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.7\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -806,6 +806,14 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2022-11-16T01:34:42.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonat\.nuget\packages\communitytoolkit.maui\5.2.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+      <Modified>2023-05-26T07:59:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonat\.nuget\packages\communitytoolkit.maui.core\5.2.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+      <Modified>2023-05-26T07:59:24.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonat\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2022-10-18T16:15:22.000</Modified>
@@ -918,6 +926,10 @@
       <PackagePath>Plugin.BLE.dll</PackagePath>
       <Modified>2022-05-01T20:00:02.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jonat\.nuget\packages\system.speech\7.0.0\runtimes\win\lib\net7.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
+      <Modified>2022-10-18T16:18:24.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonat\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2022-10-04T20:41:34.000</Modified>
@@ -928,7 +940,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\CarLeds.deps.json">
       <PackagePath>CarLeds.deps.json</PackagePath>
-      <Modified>2023-06-19T12:58:44.220</Modified>
+      <Modified>2023-06-29T06:49:44.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

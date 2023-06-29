@@ -34,14 +34,9 @@ public class ConnectToDeviceVm : ViewModelBase
         _ble = CrossBluetoothLE.Current;
         _adapter = _ble.Adapter;
 
-        var status = _ble.State;
+        ShowBluetoothStateOverlay = _ble.IsOn;
 
-        if(status != BluetoothState.On)
-        {
-            ShowBluetoothStateOverlay = true;
-        }
-
-        _ble.StateChanged += BluetoothStateChanged;
+        _ble.StateChanged += BluetoothStateChangedAsync;
         _adapter.DeviceDiscovered += BluetoothDeviceFound;
 
         RequestPermissions();
@@ -58,29 +53,29 @@ public class ConnectToDeviceVm : ViewModelBase
         });
     }
 
-    private void BluetoothStateChanged(object sender, BluetoothStateChangedArgs e)
+    private async void BluetoothStateChangedAsync(object sender, BluetoothStateChangedArgs e)
     {
         var isOn = e.NewState == BluetoothState.On;
 
         if(isOn)
         {
-            SearchForDevicesAsync();
+            await SearchForDevicesAsync();
         }
 
         ShowBluetoothStateOverlay = !isOn;
     }
 
-    private async void SearchForDevicesAsync()
+    private async Task SearchForDevicesAsync()
     {
         FoundBluetoothDevices.Clear();
 
         var scanFilterOptions = new ScanFilterOptions();
-        await _adapter.StartScanningForDevicesAsync(scanFilterOptions);
+        await _adapter.StartScanningForDevicesAsync();
     }
 
     private void BluetoothDeviceFound(object sender, DeviceEventArgs e)
     {
         FoundBluetoothDevices.Add(e.Device);
+        Console.WriteLine("test");
     }
-
 }

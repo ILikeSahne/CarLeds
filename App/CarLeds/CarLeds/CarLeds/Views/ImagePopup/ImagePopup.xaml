@@ -2,12 +2,17 @@
                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
                x:Class="CarLeds.CarLeds.Views.ImagePopup.ImagePopup"
-               xmlns:local="clr-namespace:CarLeds.CarLeds.Views.ImagePopup">
+               xmlns:local="clr-namespace:CarLeds.CarLeds.Views.ImagePopup"
+               Color="Transparent">
     <toolkit:Popup.BindingContext>
         <local:ImagePopupVm/>
     </toolkit:Popup.BindingContext>
 
-    <Border Grid.Row="0" StrokeThickness="0" StrokeShape="RoundRectangle 20" Margin="5" BackgroundColor="{StaticResource Tertiary}">
-
+    <Border x:Name="PopupBorder" Grid.Column="1" StrokeThickness="0" StrokeShape="RoundRectangle 20" BackgroundColor="{StaticResource Background}">
+        <VerticalStackLayout Margin="8" Spacing="8" HorizontalOptions="Fill">
+            <Image Grid.Row="0" Source="{Binding Source}" HeightRequest="150"/>
+            <Label Grid.Row="1" Text="{Binding Text}" FontSize="Body" HorizontalTextAlignment="Center" LineBreakMode="WordWrap"/>
+            <Button Grid.Row="2" Text="Okay" WidthRequest="100" Clicked="OkButtonClicked"/>
+        </VerticalStackLayout>
     </Border>
 </toolkit:Popup>

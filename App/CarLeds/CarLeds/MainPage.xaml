@@ -6,6 +6,10 @@
 
     <Grid>
         <connectToDevice:ConnectToDeviceView/>
+        
+        <Grid ColumnDefinitions="10,auto,*" RowDefinitions="*,auto,10">
+            <Button Grid.Column="1" Grid.Row="1" Text="Debug" Clicked="DebugButtonClicked"/>
+        </Grid>
     </Grid>
 
 </ContentPage>

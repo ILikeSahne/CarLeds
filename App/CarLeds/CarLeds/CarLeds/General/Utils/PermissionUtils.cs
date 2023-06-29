@@ -21,7 +21,7 @@ public class PermissionUtils
         if (IsGranted(bluetoothStatus) && locationServices)
             return;
 
-        await PopupUtils.DisplayImagePopup("This app needs a few permissions to function.\nPlease accept them!");
+        await PopupUtils.DisplayImagePopup("icon_bluetooth.png", "This app needs a few permissions to function.\nPlease accept them!");
 
         bluetoothStatus = await CheckBluetoothPermissionsAndroid(true);
         locationServices = IsLocationServiceEnabled();
@@ -29,7 +29,7 @@ public class PermissionUtils
         if (IsGranted(bluetoothStatus) && locationServices)
             return;
 
-        await PopupUtils.DisplayImagePopup("Please accept the permissions next time!\nIf they don't open again, you have to manually add them in the settings!");
+        await PopupUtils.DisplayImagePopup("icon_warning", "Please accept the permissions next time!\nIf they don't open again, you have to manually add them in the settings!");
         Application.Current.Quit();
     }
 
@@ -78,13 +78,13 @@ public class PermissionUtils
 #elif IOS || MACCATALYST
     private static bool IsLocationServiceEnabled()
     {
-        return CLLocationManager.Status == CLAuthorizationStatus.Denied;
+        return CLLocationManager.Status == CLAuthorizationStatus.Authorized;
     }
 #elif WINDOWS
     private static bool IsLocationServiceEnabled()
     {
         var locationservice = new Geolocator();
-        return locationservice.LocationStatus == PositionStatus.Disabled;
+        return locationservice.LocationStatus == PositionStatus.Ready;
     }
 #endif
 }

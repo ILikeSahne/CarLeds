@@ -36,7 +36,7 @@ public class ConnectToDeviceVm : ViewModelBase
 
         ShowBluetoothStateOverlay = _ble.IsOn;
 
-        _ble.StateChanged += BluetoothStateChangedAsync;
+        _ble.StateChanged += BluetoothStateChanged;
         _adapter.DeviceDiscovered += BluetoothDeviceFound;
 
         RequestPermissions();
@@ -53,19 +53,19 @@ public class ConnectToDeviceVm : ViewModelBase
         });
     }
 
-    private async void BluetoothStateChangedAsync(object sender, BluetoothStateChangedArgs e)
+    private void BluetoothStateChanged(object sender, BluetoothStateChangedArgs e)
     {
         var isOn = e.NewState == BluetoothState.On;
 
         if(isOn)
         {
-            await SearchForDevicesAsync();
+            //SearchForDevicesAsync();
         }
 
         ShowBluetoothStateOverlay = !isOn;
     }
 
-    private async Task SearchForDevicesAsync()
+    private async void SearchForDevicesAsync()
     {
         FoundBluetoothDevices.Clear();
 

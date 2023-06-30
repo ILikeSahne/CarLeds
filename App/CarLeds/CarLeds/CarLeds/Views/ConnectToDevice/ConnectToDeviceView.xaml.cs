@@ -8,5 +8,7 @@ public partial class ConnectToDeviceView : ContentView
 	public ConnectToDeviceView()
 	{
 		InitializeComponent();
+
+		Loaded += ((ConnectToDeviceVm)BindingContext).OnPageLoaded;
     }
 }

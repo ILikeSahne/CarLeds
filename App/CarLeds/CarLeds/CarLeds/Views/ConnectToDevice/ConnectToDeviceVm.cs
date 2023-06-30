@@ -1,3 +1,4 @@
+using CarLeds.CarLeds.General.Bluetooth;
 using CarLeds.CarLeds.General.Utils;
 using CarLeds.CarLeds.General.ViewModel;
 using Plugin.BLE;
@@ -31,26 +32,23 @@ public class ConnectToDeviceVm : ViewModelBase
 
     public ConnectToDeviceVm()
     {
-        _ble = CrossBluetoothLE.Current;
+        _ble = BluetoothProvider.Current;
         _adapter = _ble.Adapter;
 
         ShowBluetoothStateOverlay = _ble.IsOn;
 
         _ble.StateChanged += BluetoothStateChanged;
         _adapter.DeviceDiscovered += BluetoothDeviceFound;
-
-        RequestPermissions();
+    }
+    
+    public void OnPageLoaded(object sender, EventArgs e)
+    {
+        RequestPermissionsAsync();
     }
 
-    private void RequestPermissions()
+    private async void RequestPermissionsAsync()
     {
-        Task.Run(() =>
-        {
-            Application.Current.Dispatcher.Dispatch(async() =>
-            {
-                await PermissionUtils.CheckBluetoothPermissions();
-            });
-        });
+        await PermissionUtils.CheckBluetoothPermissions();
     }
 
     private void BluetoothStateChanged(object sender, BluetoothStateChangedArgs e)

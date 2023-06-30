@@ -14,7 +14,7 @@ public partial class ImagePopup : Popup
         vm.Text = text;
 
         var displayInfo = DeviceDisplay.Current.MainDisplayInfo;
-        PopupBorder.WidthRequest = displayInfo.Width / displayInfo.Density - 32;
+        PopupBorder.MaximumWidthRequest = displayInfo.Width / displayInfo.Density - 32;
     }
 
     private void OkButtonClicked(object sender, EventArgs e)

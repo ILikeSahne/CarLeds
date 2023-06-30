@@ -14,12 +14,7 @@ public partial class MainPage : ContentPage
 
     private void DebugButtonClicked(object sender, EventArgs e)
     {
-        var secondWindow = new Window
-        {
-            Page = new DebugPage()
-        };
-
-        Application.Current.OpenWindow(secondWindow);
+        Navigation.PushAsync(new DebugPage());
     }
 }
 

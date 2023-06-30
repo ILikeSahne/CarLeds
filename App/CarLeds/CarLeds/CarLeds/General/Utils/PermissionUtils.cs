@@ -83,8 +83,7 @@ public class PermissionUtils
 #elif WINDOWS
     private static bool IsLocationServiceEnabled()
     {
-        var locationservice = new Geolocator();
-        return locationservice.LocationStatus == PositionStatus.Ready;
+        return true;
     }
 #endif
 }

@@ -1,3 +1,4 @@
+using CarLeds.CarLeds.General.Bluetooth;
 using CarLeds.CarLeds.General.Utils;
 using CarLeds.CarLeds.General.ViewModel;
 using Plugin.BLE;
@@ -36,7 +37,7 @@ public class NoBluetoothOverlayVm : ViewModelBase
 
     public NoBluetoothOverlayVm()
     {
-        var ble = CrossBluetoothLE.Current;
+        var ble = BluetoothProvider.Current;
 
         State = ble.State;
 

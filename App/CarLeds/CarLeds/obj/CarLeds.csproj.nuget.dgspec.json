@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonat\\Desktop\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\CarLeds.csproj": {}
+    "D:\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\CarLeds.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonat\\Desktop\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\CarLeds.csproj": {
+    "D:\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\CarLeds.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonat\\Desktop\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\CarLeds.csproj",
+        "projectUniqueName": "D:\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\CarLeds.csproj",
         "projectName": "CarLeds",
-        "projectPath": "C:\\Users\\jonat\\Desktop\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\CarLeds.csproj",
+        "projectPath": "D:\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\CarLeds.csproj",
         "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonat\\Desktop\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\obj\\",
+        "outputPath": "D:\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "E:\\Programs\\Visual Studio\\Components\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",

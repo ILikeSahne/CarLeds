@@ -5,25 +5,36 @@
              xmlns:local="clr-namespace:CarLeds.CarLeds.Views.ConnectToDevice"
              xmlns:converter="clr-namespace:CarLeds.CarLeds.General.Converter"
              xmlns:noBluetoothOverlay="clr-namespace:CarLeds.CarLeds.Views.NoBluetoothOverlay"
-             xmlns:android="http://schemas.android.com/apk/res/android">
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
     <ContentView.BindingContext>
         <local:ConnectToDeviceVm/>
     </ContentView.BindingContext>
 
     <ContentView.Resources>
         <converter:VisibleIfTrueConverter x:Key="VisibleIfTrueConverter"/>
+        <toolkit:IsStringNullOrEmptyConverter x:Key="IsStringNullOrEmptyConverter" />
     </ContentView.Resources>
 
     <Grid BackgroundColor="{StaticResource Background}">
-        <Grid RowDefinitions="auto, auto">
-            <Border Grid.Row="0" StrokeThickness="0" StrokeShape="RoundRectangle 16" Margin="5" BackgroundColor="{StaticResource Tertiary}" Padding="5">
+        <Grid RowDefinitions="*, 8, auto" Margin="8">
+            <Border Grid.Row="0" StrokeThickness="0" StrokeShape="RoundRectangle 16" BackgroundColor="{StaticResource Tertiary}" Padding="5">
                 <ListView ItemsSource="{Binding FoundBluetoothDevices}" SeparatorVisibility="None">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
                                 <Grid Padding="1">
                                     <Border BackgroundColor="{StaticResource Background}" StrokeShape="RoundRectangle 16" StrokeThickness="0">
-                                        <Label Text="{Binding Name}" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                                        <Grid RowDefinitions="*,auto,auto,*" Margin="8,0">
+                                            <Label Grid.Row="1" Text="{Binding Name}" FontAttributes="Bold">
+                                                <Label.Triggers>
+                                                    <DataTrigger TargetType="Label" Binding="{Binding Name, Converter={StaticResource IsStringNullOrEmptyConverter}}" Value="True">
+                                                        <Setter Property="Text" Value="Unknown Device"/>
+                                                    </DataTrigger>
+                                                </Label.Triggers>
+                                            </Label>
+                                            <Label Grid.Row="2" Text="{Binding Id}"/>
+                                        </Grid>
                                     </Border>
                                 </Grid>
                             </ViewCell>
@@ -32,7 +43,7 @@
                 </ListView>
             </Border>
 
-            <Button Grid.Row="1" Command="{Binding SearchForDevicesCommand}" Text="Search for Devices" WidthRequest="200"></Button>
+            <Button Grid.Row="2" Command="{Binding SearchForDevicesCommand}" Text="Search for Devices" WidthRequest="200"></Button>
         </Grid>
 
         <Grid IsVisible="{Binding ShowBluetoothStateOverlay}" BackgroundColor="{StaticResource Background}">

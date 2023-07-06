@@ -12,51 +12,51 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = CarLeds
-build_property.ProjectDir = C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\
+build_property.ProjectDir = D:\Projects\CarLeds\App\CarLeds\CarLeds\
 
-[C:/Users/jonat/Desktop/Projects/CarLeds/App/CarLeds/CarLeds/App.xaml]
+[D:/Projects/CarLeds/App/CarLeds/CarLeds/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarLeds.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/jonat/Desktop/Projects/CarLeds/App/CarLeds/CarLeds/CarLeds/Views/ConnectToDevice/ConnectToDeviceView.xaml]
+[D:/Projects/CarLeds/App/CarLeds/CarLeds/CarLeds/Views/ConnectToDevice/ConnectToDeviceView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarLeds.CarLeds.Views.ConnectToDevice.ConnectToDeviceView.xaml
 build_metadata.AdditionalFiles.TargetPath = CarLeds\Views\ConnectToDevice\ConnectToDeviceView.xaml
 build_metadata.AdditionalFiles.RelativePath = CarLeds\Views\ConnectToDevice\ConnectToDeviceView.xaml
 
-[C:/Users/jonat/Desktop/Projects/CarLeds/App/CarLeds/CarLeds/CarLeds/Views/DebugPage/DebugPage.xaml]
+[D:/Projects/CarLeds/App/CarLeds/CarLeds/CarLeds/Views/DebugPage/DebugPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarLeds.CarLeds.Views.DebugPage.DebugPage.xaml
 build_metadata.AdditionalFiles.TargetPath = CarLeds\Views\DebugPage\DebugPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CarLeds\Views\DebugPage\DebugPage.xaml
 
-[C:/Users/jonat/Desktop/Projects/CarLeds/App/CarLeds/CarLeds/CarLeds/Views/ImagePopup/ImagePopup.xaml]
+[D:/Projects/CarLeds/App/CarLeds/CarLeds/CarLeds/Views/ImagePopup/ImagePopup.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarLeds.CarLeds.Views.ImagePopup.ImagePopup.xaml
 build_metadata.AdditionalFiles.TargetPath = CarLeds\Views\ImagePopup\ImagePopup.xaml
 build_metadata.AdditionalFiles.RelativePath = CarLeds\Views\ImagePopup\ImagePopup.xaml
 
-[C:/Users/jonat/Desktop/Projects/CarLeds/App/CarLeds/CarLeds/CarLeds/Views/NoBluetoothOverlay/NoBluetoothOverlayView.xaml]
+[D:/Projects/CarLeds/App/CarLeds/CarLeds/CarLeds/Views/NoBluetoothOverlay/NoBluetoothOverlayView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarLeds.CarLeds.Views.NoBluetoothOverlay.NoBluetoothOverlayView.xaml
 build_metadata.AdditionalFiles.TargetPath = CarLeds\Views\NoBluetoothOverlay\NoBluetoothOverlayView.xaml
 build_metadata.AdditionalFiles.RelativePath = CarLeds\Views\NoBluetoothOverlay\NoBluetoothOverlayView.xaml
 
-[C:/Users/jonat/Desktop/Projects/CarLeds/App/CarLeds/CarLeds/MainPage.xaml]
+[D:/Projects/CarLeds/App/CarLeds/CarLeds/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarLeds.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/jonat/Desktop/Projects/CarLeds/App/CarLeds/CarLeds/Resources/Styles/Colors.xaml]
+[D:/Projects/CarLeds/App/CarLeds/CarLeds/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarLeds.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/jonat/Desktop/Projects/CarLeds/App/CarLeds/CarLeds/Resources/Styles/Styles.xaml]
+[D:/Projects/CarLeds/App/CarLeds/CarLeds/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarLeds.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

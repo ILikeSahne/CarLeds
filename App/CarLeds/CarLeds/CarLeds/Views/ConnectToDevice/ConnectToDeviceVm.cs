@@ -67,6 +67,8 @@ public class ConnectToDeviceVm : ViewModelBase
     {
         FoundBluetoothDevices.Clear();
 
+        await _adapter.StopScanningForDevicesAsync();
+
         var scanFilterOptions = new ScanFilterOptions();
         await _adapter.StartScanningForDevicesAsync();
     }
@@ -74,7 +76,7 @@ public class ConnectToDeviceVm : ViewModelBase
     private void BluetoothDeviceFound(object sender, DeviceEventArgs e)
     {
         FoundBluetoothDevices.Add(e.Device);
-        Console.WriteLine(e.Device);
+        Console.WriteLine(e.Device.Name);
         Console.WriteLine("test");
     }
 }

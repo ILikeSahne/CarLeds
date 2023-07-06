@@ -11,6 +11,7 @@
     <Style TargetType="Button">
         <Setter Property="TextColor" Value="White"/>
         <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
+        <Setter Property="CornerRadius" Value="12"/>
     </Style>
 
 </ResourceDictionary>

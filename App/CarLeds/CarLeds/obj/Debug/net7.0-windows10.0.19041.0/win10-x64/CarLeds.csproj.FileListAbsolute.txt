@@ -660,3 +660,7 @@ D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win
 D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bluetooth.scale-100.png
+C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_bluetooth.scale-100.png
+C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_warning.scale-100.png
+C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\warning.scale-100.png

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-6OC0VF1</Machine>
+    <Machine>JESZENSZKY</Machine>
     <WindowsUser>jonat</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>abbe3cde-e879-4271-901c-ad660bab75a5</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
-    <WindowsSdkPath>E:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>F273E342BCFBCAE554EDC8F92E2013824229708D80CCC8054E457114AC3B1CA3</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>abbe3cde-e879-4271-901c-ad660bab75a5_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>abbe3cde-e879-4271-901c-ad660bab75a5_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,28 +26,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-01T21:15:57.637</Modified>
+      <Modified>2023-07-06T12:57:25.895</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-07-01T21:15:56.725</Modified>
+      <Modified>2023-07-06T12:52:54.382</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CarLeds.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CarLeds.runtimeconfig.json">
       <PackagePath>CarLeds.runtimeconfig.json</PackagePath>
-      <Modified>2023-06-30T14:39:56.568</Modified>
+      <Modified>2023-07-04T07:36:11.662</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CarLeds.dll">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CarLeds.dll">
       <PackagePath>CarLeds.dll</PackagePath>
-      <Modified>2023-07-01T21:15:55.645</Modified>
+      <Modified>2023-07-06T12:57:24.939</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CarLeds.exe</PackagePath>
-      <Modified>2023-07-01T21:15:55.729</Modified>
+      <Modified>2023-07-06T12:57:24.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonat\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.7\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -937,9 +937,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\CarLeds.deps.json">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\CarLeds.deps.json">
       <PackagePath>CarLeds.deps.json</PackagePath>
-      <Modified>2023-07-01T21:15:57.489</Modified>
+      <Modified>2023-07-06T12:57:25.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -953,257 +953,257 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-04-25T14:26:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2023-06-30T12:10:08.937</Modified>
+      <Modified>2023-06-19T10:13:21.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.631</Modified>
+      <Modified>2023-06-19T10:17:49.729</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.631</Modified>
+      <Modified>2023-06-19T10:17:49.742</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.631</Modified>
+      <Modified>2023-06-19T10:17:49.759</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.631</Modified>
+      <Modified>2023-06-19T10:17:49.784</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.635</Modified>
+      <Modified>2023-06-19T10:17:49.876</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2023-06-30T12:10:16.605</Modified>
+      <Modified>2023-06-19T10:13:21.595</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2023-06-30T12:10:16.606</Modified>
+      <Modified>2023-06-19T10:13:21.596</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-06-30T12:10:16.607</Modified>
+      <Modified>2023-06-29T07:42:36.831</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.607</Modified>
+      <Modified>2023-06-29T07:42:37.033</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.607</Modified>
+      <Modified>2023-06-29T07:42:37.043</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.607</Modified>
+      <Modified>2023-06-29T07:42:37.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.607</Modified>
+      <Modified>2023-06-29T07:42:37.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.610</Modified>
+      <Modified>2023-06-29T07:42:37.116</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.610</Modified>
+      <Modified>2023-06-29T07:42:36.887</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.610</Modified>
+      <Modified>2023-06-29T07:42:36.890</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.610</Modified>
+      <Modified>2023-06-29T07:42:36.901</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.610</Modified>
+      <Modified>2023-06-29T07:42:36.892</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.611</Modified>
+      <Modified>2023-06-29T07:42:36.894</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.611</Modified>
+      <Modified>2023-06-29T07:42:36.870</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.611</Modified>
+      <Modified>2023-06-29T07:42:36.873</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.611</Modified>
+      <Modified>2023-06-29T07:42:36.884</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.611</Modified>
+      <Modified>2023-06-29T07:42:36.876</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.611</Modified>
+      <Modified>2023-06-29T07:42:36.878</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.612</Modified>
+      <Modified>2023-06-29T07:42:36.839</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.612</Modified>
+      <Modified>2023-06-29T07:42:36.841</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.612</Modified>
+      <Modified>2023-06-29T07:42:36.844</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.612</Modified>
+      <Modified>2023-06-29T07:42:36.848</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.612</Modified>
+      <Modified>2023-06-29T07:42:36.852</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.616</Modified>
+      <Modified>2023-06-29T07:42:36.854</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.616</Modified>
+      <Modified>2023-06-29T07:42:36.856</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.616</Modified>
+      <Modified>2023-06-29T07:42:36.867</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.616</Modified>
+      <Modified>2023-06-29T07:42:36.859</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.620</Modified>
+      <Modified>2023-06-29T07:42:36.862</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.621</Modified>
+      <Modified>2023-06-29T07:42:36.942</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.621</Modified>
+      <Modified>2023-06-29T07:42:36.947</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.621</Modified>
+      <Modified>2023-06-29T07:42:36.952</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.621</Modified>
+      <Modified>2023-06-29T07:42:36.959</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.621</Modified>
+      <Modified>2023-06-29T07:42:36.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.622</Modified>
+      <Modified>2023-06-29T07:42:36.922</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.622</Modified>
+      <Modified>2023-06-29T07:42:36.926</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.622</Modified>
+      <Modified>2023-06-29T07:42:36.928</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.622</Modified>
+      <Modified>2023-06-29T07:42:36.932</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.622</Modified>
+      <Modified>2023-06-29T07:42:36.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.622</Modified>
+      <Modified>2023-06-29T07:42:36.904</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.623</Modified>
+      <Modified>2023-06-29T07:42:36.907</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.623</Modified>
+      <Modified>2023-06-29T07:42:36.909</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.623</Modified>
+      <Modified>2023-06-29T07:42:36.914</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.627</Modified>
+      <Modified>2023-06-29T07:42:36.919</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.627</Modified>
+      <Modified>2023-06-29T07:42:36.978</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.627</Modified>
+      <Modified>2023-06-29T07:42:36.983</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.627</Modified>
+      <Modified>2023-06-29T07:42:36.990</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.628</Modified>
+      <Modified>2023-06-29T07:42:37.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.628</Modified>
+      <Modified>2023-06-29T07:42:37.027</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bluetooth.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bluetooth.scale-100.png">
       <PackagePath>bluetooth.scale-100.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.628</Modified>
+      <Modified>2023-06-29T07:06:12.674</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.628</Modified>
+      <Modified>2023-06-19T10:17:49.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.629</Modified>
+      <Modified>2023-06-19T10:17:49.969</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.629</Modified>
+      <Modified>2023-06-19T10:17:49.981</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.629</Modified>
+      <Modified>2023-06-19T10:17:49.997</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.630</Modified>
+      <Modified>2023-06-19T10:17:50.033</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_bluetooth.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_bluetooth.scale-100.png">
       <PackagePath>icon_bluetooth.scale-100.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.630</Modified>
+      <Modified>2023-06-29T07:06:12.674</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_warning.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_warning.scale-100.png">
       <PackagePath>icon_warning.scale-100.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.630</Modified>
+      <Modified>2023-06-29T07:42:17.805</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\warning.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Desktop\Projects\CarLeds\App\CarLeds\CarLeds\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\warning.scale-100.png">
       <PackagePath>warning.scale-100.png</PackagePath>
-      <Modified>2023-06-30T12:10:16.630</Modified>
+      <Modified>2023-06-29T07:42:17.805</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

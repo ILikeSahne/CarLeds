@@ -23,4 +23,6 @@ public static class MauiProgram
 
 		return builder.Build();
 	}
+
+	public static bool Testing => true;
 }

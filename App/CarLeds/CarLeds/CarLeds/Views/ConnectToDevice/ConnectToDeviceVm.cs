@@ -35,13 +35,18 @@ public class ConnectToDeviceVm : ViewModelBase
         _ble = BluetoothProvider.Current;
         _adapter = _ble.Adapter;
 
-        ShowBluetoothStateOverlay = _ble.IsOn;
+        ShowBluetoothStateOverlay = !_ble.IsOn;
 
         _ble.StateChanged += BluetoothStateChanged;
         _adapter.DeviceDiscovered += BluetoothDeviceFound;
+
+        SearchForDevicesCommand = new Command(() =>
+        {
+            SearchForDevicesAsync();
+        });
     }
     
-    public void OnPageLoaded(object sender, EventArgs e)
+    public void OnPageLoaded()
     {
         RequestPermissionsAsync();
     }
@@ -54,11 +59,6 @@ public class ConnectToDeviceVm : ViewModelBase
     private void BluetoothStateChanged(object sender, BluetoothStateChangedArgs e)
     {
         var isOn = e.NewState == BluetoothState.On;
-
-        if(isOn)
-        {
-            //SearchForDevicesAsync();
-        }
 
         ShowBluetoothStateOverlay = !isOn;
     }
@@ -74,6 +74,7 @@ public class ConnectToDeviceVm : ViewModelBase
     private void BluetoothDeviceFound(object sender, DeviceEventArgs e)
     {
         FoundBluetoothDevices.Add(e.Device);
+        Console.WriteLine(e.Device);
         Console.WriteLine("test");
     }
 }

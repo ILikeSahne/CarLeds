@@ -54,7 +54,21 @@ public class Adapter : IAdapter
 
     public Task StartScanningForDevicesAsync(ScanFilterOptions scanFilterOptions = null, Func<IDevice, bool> deviceFilter = null, bool allowDuplicatesKey = false, CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        var t = new Task(async () =>
+        {
+            for (var i = 0; i < 10; i++)
+            {
+                await Task.Delay(1000);
+
+                var deviceDiscoveredEvent = new DeviceEventArgs();
+
+                deviceDiscoveredEvent.Device = new Device();
+
+                DeviceDiscovered.Invoke(this, deviceDiscoveredEvent);
+            }
+        });
+        t.Start();
+        return t;
     }
 
     public Task StartScanningForDevicesAsync(Guid[] serviceUuids, Func<IDevice, bool> deviceFilter = null, bool allowDuplicatesKey = false, CancellationToken cancellationToken = default)

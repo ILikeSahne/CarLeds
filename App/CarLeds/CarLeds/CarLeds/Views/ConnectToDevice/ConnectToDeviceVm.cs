@@ -27,6 +27,7 @@ public class ConnectToDeviceVm : ViewModelBase
     }
 
     public ICommand SearchForDevicesCommand { get; set; }
+    public ICommand ConnectToDeviceCommand { get; set; }
 
     public ObservableCollection<IDevice> FoundBluetoothDevices { get; set; } = new ObservableCollection<IDevice>();
 
@@ -40,9 +41,11 @@ public class ConnectToDeviceVm : ViewModelBase
         _ble.StateChanged += BluetoothStateChanged;
         _adapter.DeviceDiscovered += BluetoothDeviceFound;
 
-        SearchForDevicesCommand = new Command(() =>
+        SearchForDevicesCommand = new Command(SearchForDevicesAsync);
+
+        ConnectToDeviceCommand = new Command((sender) =>
         {
-            SearchForDevicesAsync();
+            
         });
     }
     

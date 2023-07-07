@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EIM02fRvNVg9B5ksMadRV28UrqhFR+MY8LeyuKpircQq/ZMqxdUVeZL833gOiECPVtNad9H+5Sl24vVkUmH4ug==",
+  "dgSpecHash": "ZpPTXjSXWsDpCPtMZvXoXiDstF+hqlN8PGrUlhEa8Eyk8lBCopfzn9H+HN8wXu52BLypCsFnoCWRHP5snPq6XQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\CarLeds.csproj",
+  "projectFilePath": "C:\\Users\\jonat\\Desktop\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\CarLeds.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jonat\\.nuget\\packages\\communitytoolkit.maui\\5.2.0\\communitytoolkit.maui.5.2.0.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\communitytoolkit.maui.core\\5.2.0\\communitytoolkit.maui.core.5.2.0.nupkg.sha512",

@@ -78,6 +78,11 @@ public class Adapter : IAdapter
 
     public Task StopScanningForDevicesAsync()
     {
-        throw new NotImplementedException();
+        var t = new Task(() =>
+        {
+
+        });
+        t.Start();
+        return t;
     }
 }

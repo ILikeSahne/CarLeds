@@ -25834,20 +25834,20 @@
   },
   "packageFolders": {
     "C:\\Users\\jonat\\.nuget\\packages\\": {},
-    "E:\\Programs\\Visual Studio\\Components\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\CarLeds.csproj",
+      "projectUniqueName": "C:\\Users\\jonat\\Desktop\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\CarLeds.csproj",
       "projectName": "CarLeds",
-      "projectPath": "D:\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\CarLeds.csproj",
+      "projectPath": "C:\\Users\\jonat\\Desktop\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\CarLeds.csproj",
       "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\obj\\",
+      "outputPath": "C:\\Users\\jonat\\Desktop\\Projects\\CarLeds\\App\\CarLeds\\CarLeds\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "E:\\Programs\\Visual Studio\\Components\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",

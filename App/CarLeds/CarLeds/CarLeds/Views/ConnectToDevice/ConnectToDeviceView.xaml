@@ -6,7 +6,8 @@
              xmlns:converter="clr-namespace:CarLeds.CarLeds.General.Converter"
              xmlns:noBluetoothOverlay="clr-namespace:CarLeds.CarLeds.Views.NoBluetoothOverlay"
              xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:windows="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific;assembly=Microsoft.Maui.Controls">
     <ContentView.BindingContext>
         <local:ConnectToDeviceVm/>
     </ContentView.BindingContext>
@@ -16,14 +17,19 @@
         <toolkit:IsStringNullOrEmptyConverter x:Key="IsStringNullOrEmptyConverter" />
     </ContentView.Resources>
 
+   
     <Grid BackgroundColor="{StaticResource Background}">
         <Grid RowDefinitions="*, 8, auto" Margin="8">
             <Border Grid.Row="0" StrokeThickness="0" StrokeShape="RoundRectangle 16" BackgroundColor="{StaticResource Tertiary}" Padding="5">
-                <ListView ItemsSource="{Binding FoundBluetoothDevices}" SeparatorVisibility="None">
+                <ListView ItemsSource="{Binding FoundBluetoothDevices}" SeparatorVisibility="None" windows:ListView.SelectionMode="Accessible">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
                                 <Grid Padding="1">
+                                    <Grid.GestureRecognizers>
+                                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding Source={RelativeSource AncestorType={x:Type local:ConnectToDeviceVm}}, Path=ConnectToDeviceCommand}" CommandParameter="{Binding}"/>
+                                    </Grid.GestureRecognizers>
+                                    
                                     <Border BackgroundColor="{StaticResource Background}" StrokeShape="RoundRectangle 16" StrokeThickness="0">
                                         <Grid RowDefinitions="*,auto,auto,*" Margin="8,0">
                                             <Label Grid.Row="1" Text="{Binding Name}" FontAttributes="Bold">
